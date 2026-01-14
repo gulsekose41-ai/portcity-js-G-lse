@@ -1,0 +1,35 @@
+style.css
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  color: black;
+}
+
+.menu {
+  background: #333;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.menu a.active {
+  border-bottom: 2px solid orange;
+}
+
+.dark-theme {
+  background: #111;
+  color: white;
+}
+
+.large {
+  transform: scale(1.3);
+}
+
+.info {
+  display: none;
+  color: gray;
+}
